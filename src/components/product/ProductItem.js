@@ -12,7 +12,7 @@ const ProductItem = (props) =>{
 				<Link to={`/products/productDetail/${props.id}`} className="product-link">
 					<Card className="product-content">
 						<div className="product-image">
-							<img src={`http://localhost:5000/${props.image}`} alt={props.name}/>
+							<img src={`${process.env.REACT_APP_BACKEND_URL}/${props.image}`} alt={props.name}/>
 						</div>
 						<div className="product-info"> 
 							<h2 className ="product-name">{props.name}</h2>
