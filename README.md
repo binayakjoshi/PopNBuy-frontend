@@ -1,2 +1,2 @@
-# PopNBuy-backend
-backend for PopNBuy
+# PopNBuy-frontend
+frontend for PopNBuy
