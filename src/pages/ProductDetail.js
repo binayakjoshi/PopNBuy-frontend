@@ -121,7 +121,7 @@ const ProductDetail = (props) => {
       {loadedProduct && (
         <Card className="product-detail">
             <div className="single-product-image">
-              <img src={`http://localhost:5000/${loadedProduct.image}`} alt={loadedProduct.name} />
+              <img src={`${process.env.REACT_APP_BACKEND_URL}/${loadedProduct.image}`} alt={loadedProduct.name} />
             </div>
             <form className="product-detail-info" onSubmit={addToCart}>
               <label htmlFor="name" className="product-detail-name">{loadedProduct.name}</label>
