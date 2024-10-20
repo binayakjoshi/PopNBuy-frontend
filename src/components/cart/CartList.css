@@ -1,0 +1,10 @@
+.cart-list{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding:5px;
+	justify-content: flex-start;
+	
+
+}

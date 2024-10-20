@@ -1,0 +1,13 @@
+
+.main-header {
+  background-color: #556B2F; 
+  color: #ecf0f1;
+  padding: 10px 20px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+

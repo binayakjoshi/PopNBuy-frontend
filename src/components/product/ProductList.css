@@ -1,0 +1,12 @@
+.product-list{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding:5px;
+	justify-content: flex-start;
+	overflow-y: hidden;
+	height: auto;
+
+
+}
